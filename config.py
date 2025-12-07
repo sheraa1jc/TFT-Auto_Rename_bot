@@ -63,6 +63,7 @@ class Txt(object):
 ➪ /del_thumb - Use This Command To Delete Your Old Thumbnail.
 ➪ /view_thumb - Use This Command To View Your Current Thumbnail.
 ➪ /broadcast - Message broadcast command [FOR ADMINS & OWNER USE ONLY]
+
 📑 <b><u>How To Set Custom Caption</u></b>
 
 ➪ /set_caption - Use This Command To Set A Custom Caption

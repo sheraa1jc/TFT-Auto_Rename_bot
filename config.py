@@ -17,15 +17,15 @@ USER_LIMIT_TIME = int(os.environ.get("USER_LIMIT_TIME", "1"))#enter time based o
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", " ")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "32863920")
+    API_HASH  = os.environ.get("API_HASH", "7be1f3fb2a05f3cfdea37a7e06d25c36")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "8551375864:AAEKdCXeiYjKZCtSW_8VLt15Y1U1KhhiF1Y") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", ""))
+    OWNER = int(os.environ.get("OWNER", "5108969088"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
@@ -33,7 +33,7 @@ class Config(object):
     START_PIC   = os.environ.get("START_PIC", "https://files.catbox.moe/ufzpkn.jpg")
     
     FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', "tech_freak_tamil").split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "" ))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002201298270" ))
     DUMB_CHANNEL = os.environ.get("DUMB_CHANNEL", "")
     
     # wes response configuration     

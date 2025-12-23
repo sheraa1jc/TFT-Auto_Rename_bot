@@ -5,19 +5,19 @@ id_pattern = re.compile(r'^.\d+$')
 
 
 # Fetch initial admin list
-ADMIN = [5632920627]  # TemporLoad admins when the bot starts
+ADMIN = [5108969088]  # TemporLoad admins when the bot starts
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "9911380")
-    API_HASH  = os.environ.get("API_HASH", "b9d1a9112401026acdfc094dc63394ac")
+    API_ID    = os.environ.get("API_ID", "32863920")
+    API_HASH  = os.environ.get("API_HASH", "7be1f3fb2a05f3cfdea37a7e06d25c36")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Agastin")     
     DB_URL  = os.environ.get("DB_URL","")
     PORT = os.environ.get("PORT", "8050")
-    OWNER = int(os.environ.get("OWNER", "6290450484"))
+    OWNER = int(os.environ.get("OWNER", "5108969088"))
     PRIVATE_USE = False #If Bot is private use set True otherwise False
  
     # other configs
